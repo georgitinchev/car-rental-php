@@ -38,7 +38,7 @@ Import the `carrental.sql` file located in the `SQL File Folder` inside the proj
 
 1. **Open Your Browser**
 
-Navigate to the following URL:
+Navigate to the following URL: http://localhost/carrental
 
 2. **Login Details for User**
 
@@ -49,7 +49,7 @@ Navigate to the following URL:
 
 1. **Open Your Browser**
 
-Navigate to the following URL:
+Navigate to the following URL: http://localhost/carrental/admin
 
 2. **Login Details for Admin**
 
