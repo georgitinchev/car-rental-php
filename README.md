@@ -1,23 +1,63 @@
-How to run the Car Rental Project
+# Car Rental Project
 
-1. Download and setup the repo on your local machine copying carrental
-2. Put carrental folder inside root directory (for xampp xampp/htdocs, for wamp wamp/www, for lamp var/www/html)
+This project is a web application for managing car rentals. Follow the instructions below to set up and run the project on your local machine.
 
-Database Configuration
+## How to Run the Car Rental Project
 
-Open phpmyadmin
-Create Database carrental
-Import database carrental.sql (available SQL File Folder inside)
+### Download and Setup
 
-For User
-Open Your browser put inside browser “http://localhost/carrental”
+1. **Clone the Repository**
 
-**************Login Details for user****************************
-Username : test@gmail.com
-Password: Test@123
+   Clone or download the repository to your local machine.
 
-**************For Admin Panel***********************************
-Open Your browser put inside browser “http://localhost/carrental/admin”
-Login Details for admin :
-Username: admin
-Password: Test@12345
+2. **Copy Files**
+
+Copy the `carrental` folder to your server's root directory:
+
+- **For XAMPP:** `xampp/htdocs`
+- **For WAMP:** `wamp/www`
+- **For LAMP:** `var/www/html`
+
+### Database Configuration
+
+1. **Open phpMyAdmin**
+
+Access phpMyAdmin via your browser.
+
+2. **Create Database**
+
+Create a new database named `carrental`.
+
+3. **Import Database**
+
+Import the `carrental.sql` file located in the `SQL File Folder` inside the project directory.
+
+### Running the Application
+
+#### User Access
+
+1. **Open Your Browser**
+
+Navigate to the following URL:
+
+2. **Login Details for User**
+
+- **Username:** `test@gmail.com`
+- **Password:** `Test@123`
+
+#### Admin Panel Access
+
+1. **Open Your Browser**
+
+Navigate to the following URL:
+
+2. **Login Details for Admin**
+
+- **Username:** `admin`
+- **Password:** `Test@12345`
+
+## Note
+
+- Ensure that your web server (XAMPP/WAMP/LAMP) is running before accessing the application.
+- Ensure that PHP and MySQL are installed and properly configured on your machine.
+
