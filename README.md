@@ -1,63 +1,41 @@
 # Car Rental Project
 
-This project is a web application for managing car rentals. Follow the instructions below to set up and run the project on your local machine.
+This project is a web application for managing car rentals.
 
-## How to Run the Car Rental Project
+## How to Run
 
-### Download and Setup
+### 1. **Download and Setup**
 
-1. **Clone the Repository**
+- Clone or download the repository.
+- Copy the `carrental` folder to your server’s root directory:
+  - **For XAMPP**: `xampp/htdocs`
+  - **For WAMP**: `wamp/www`
+  - **For LAMP**: `var/www/html`
 
-   Clone or download the repository to your local machine.
+### 2. **Database Configuration**
 
-2. **Copy Files**
+- Open phpMyAdmin and create a database named `carrental`.
+- Import the `carrental.sql` file from the SQL folder.
 
-Copy the `carrental` folder to your server's root directory:
+### 3. **Running the Application**
 
-- **For XAMPP:** `xampp/htdocs`
-- **For WAMP:** `wamp/www`
-- **For LAMP:** `var/www/html`
+- **User Access**:  
+  Open your browser: `http://localhost/carrental`  
+  **Login**: `test@gmail.com` / `Test@123`
 
-### Database Configuration
+- **Admin Access**:  
+  Open your browser: `http://localhost/carrental/admin`  
+  **Login**: `admin` / `Test@12345`
 
-1. **Open phpMyAdmin**
+### 4. **Demos**
 
-Access phpMyAdmin via your browser.
+- **User Demo**:  
+  ![User Demo](car-rental1.gif)
+  
+- **Admin Demo**:  
+  ![Admin Demo](car-rental2.gif)
 
-2. **Create Database**
+### 5. **Notes**
 
-Create a new database named `carrental`.
-
-3. **Import Database**
-
-Import the `carrental.sql` file located in the `SQL File Folder` inside the project directory.
-
-### Running the Application
-
-#### User Access
-
-1. **Open Your Browser**
-
-Navigate to the following URL: http://localhost/carrental
-
-2. **Login Details for User**
-
-- **Username:** `test@gmail.com`
-- **Password:** `Test@123`
-
-#### Admin Panel Access
-
-1. **Open Your Browser**
-
-Navigate to the following URL: http://localhost/carrental/admin
-
-2. **Login Details for Admin**
-
-- **Username:** `admin`
-- **Password:** `Test@12345`
-
-## Note
-
-- Ensure that your web server (XAMPP/WAMP/LAMP) is running before accessing the application.
-- Ensure that PHP and MySQL are installed and properly configured on your machine.
-
+- Ensure your web server (XAMPP/WAMP/LAMP) is running.
+- PHP and MySQL must be installed and configured.
